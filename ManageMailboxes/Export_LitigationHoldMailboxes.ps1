@@ -20,7 +20,7 @@
 
 .EXAMPLE
     Add user in the inputFile
-    run .\Add_CopilotLicense.ps1
+    run .\Export_LitigationHoldMailboxes.ps1
 #>
 
 # Connect Online service
