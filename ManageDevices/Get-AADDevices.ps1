@@ -19,8 +19,7 @@
     No Parameters needed
 
 .EXAMPLE
-    Add user in the inputFile
-    run .\Add_CopilotLicense.ps1
+    run .\Get_AADDevices.ps1
 #>
 
 
