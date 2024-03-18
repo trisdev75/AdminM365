@@ -57,7 +57,7 @@ $LogFile = #PATH TO LOG FILE
 # CSV
 #TeamName;
 
-$Teams = import-CSV $FilePath
+$Teams = import-CSV $InputFile
 
 
 Connect-ExchangeOnline
