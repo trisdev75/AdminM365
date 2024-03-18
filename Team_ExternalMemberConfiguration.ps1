@@ -69,14 +69,13 @@ Connect-ExchangeOnline
 
 foreach($Team in $Teams){
     $TeamName = $Team.TeamName
-
     try{
         Set-UnifiedGroup -Identity $TeamName -AutoSubscribeNewMembers -HiddenFromExchangeClientsEnabled:$false -AcceptMessagesOnlyFromSendersOrMembers:$false
         Write-Log -Message "Set Configuration for $TeamName" -Status OK
-    
-    }catch{
+    }
+    catch{
         Write-Log -Message "Set Configuration for $TeamName" -Status Error
     }
 
-}
+}# Foreach
 
