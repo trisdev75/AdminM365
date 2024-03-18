@@ -30,13 +30,13 @@
 Connect-ExchangeOnline
 
 # Files
-$FilePath = #FILE TO IMPORT
+$InputFile = #FILE TO IMPORT
 $OutputFile = #PATH TO OUTPUT
 
 # CSV
 #userPrincipalName;
 
-$Users = import-CSV $FilePath
+$Users = import-CSV $InputFile
 $Result = New-Object System.Collections.ArrayList
 
 foreach($user in $Users){
