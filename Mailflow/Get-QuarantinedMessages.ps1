@@ -9,7 +9,7 @@
 
 .NOTES
     File Name      : Get-QuarantinedMessages.ps1
-    Author         : DEVILLES Tristan
+    Author         : trisdev75
     Created        : 26/03/2023
     Last Modified  : NA
     Version        : 1.0
