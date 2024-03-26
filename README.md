@@ -15,5 +15,6 @@ Below you will find the information necessary to operate this repository.
 - [Manage Mailboxes](https://github.com/trisdev75/AdminM365/tree/main/ManageMailboxes)
 - [Manage Unified Groups](https://github.com/trisdev75/AdminM365/tree/main/ManageUnifiedGroups)
 - [Manage Teams](https://github.com/trisdev75/AdminM365/tree/main/Teams)
+- [MailFlow](https://github.com/trisdev75/AdminM365/tree/main/Mailflow)
 
 
