@@ -34,7 +34,7 @@ $InputFile = #FILE TO IMPORT
 $OutputFile = #PATH TO OUTPUT
 
 # CSV
-#userPrincipalName;
+#UPN;
 
 $Users = import-CSV $InputFile
 $Result = New-Object System.Collections.ArrayList
